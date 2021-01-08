@@ -70,7 +70,7 @@ h1 {
 	justify-content: space-between;
 	font-size: 12px;
 	letter-spacing: 0.2px;
-	width: 90px;
+	width: 80px;
 	font-family: var(--font-primary);
 	padding: 0;
 }
@@ -106,7 +106,6 @@ body.dark .btn-toggle .far {
 
 .search-bar input {
 	background-color: var(--element);
-	color: var(--input);
 	outline: none;
 	border: none;
 	font-family: var(--font-primary);
@@ -120,7 +119,7 @@ body.dark .btn-toggle .far {
 	font-size: 14px;
 }
 
-.search-bar::placeholder {
+.search-bar input::placeholder {
 	color: var(--input);
 }
 
